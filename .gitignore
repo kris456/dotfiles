@@ -1,11 +1,12 @@
-
+*~
 snap/
 nettverksdisker/
 .config/google-chrome/*
 .cache
 .mozilla/
 .config/code/
-/*
+
+
 !/bin/
 !/.*
 /.mozilla
