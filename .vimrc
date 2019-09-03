@@ -1,5 +1,7 @@
+set nocompatible 
 "Inspiration:
 "https://github.com/captbaritone/dotfiles/blob/master/vimrc
+
 
 "load plug vim if we do not have it yet
 if empty(glob('~/.vim/autoload/plug.vim'))

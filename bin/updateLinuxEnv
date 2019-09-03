@@ -2,7 +2,7 @@
 
 echo "update dotfiles"
 
-yadm update
+yadm pull 
 echo "decrypt yadm"
 yadm decrypt
 
@@ -12,7 +12,7 @@ brew update
 brew upgrade
 brew bundle
 brew cleanup
-
+brew uninstall rust curl
 echo "Syncing git repositories"
 mr -j 10 co
 mr -j 10 update
